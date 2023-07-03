@@ -1,0 +1,11 @@
+1.Open cmd Prompt from this directory
+2.choose mo.exe and give the arguments , it should look like below 
+
+mo.exe  --input_model OBFetalHeart_AutoLabel_3VT_from_nnUNet_pytorch.onnx
+
+3.It will create .bin and .xml of same name as onnx .
+
+How i got mo.exe file 
+mo.exe was downladed online 
+Search for a dev version of openvino 2023 (pip install openvino-dev) , pip install in a folder and after the install ,search for mo.exe file.
+This Mo.exe is responsibile for converting the model from .onnx --> .bin and .xml
